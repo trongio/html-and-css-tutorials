@@ -5,6 +5,7 @@
   padding: 10px;
   background-color: blue;
   color: white;
+  border: 3px solid green;
 }
 nav .link:last-child{
   margin-bottom: 0px;
