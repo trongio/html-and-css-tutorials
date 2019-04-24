@@ -2,5 +2,7 @@
   display: block;
   height: 100px;
   width: 30px;
+  padding: 10px;
   background-color: blue;
+  color: white;
 }
