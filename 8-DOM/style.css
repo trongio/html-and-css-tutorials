@@ -1,6 +1,9 @@
-.block{
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-  background-color: blue;
+.table{
+  display: table;
+}
+.tr{
+  display: table-row;
+}
+.td{
+  display: table-cell;
 }
