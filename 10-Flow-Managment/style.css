@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  text-decoration: none;
   padding: 0;
   margin: 0;
 }
@@ -9,44 +10,48 @@ main{
   margin: 0 auto;
 }
 
-.col-1, .col-2{
-  width: 285px;
-}
+
 .col-1, .col-2, .col-3{
   height: 150px;
-  background-color: blue;
 }
 
 .col-1{
   width: 30%;
-  background-color: blue;
-  float: left;
-  margin-right: 30px;
-}
-.col-2{
-  width: 30%;
-  background-color: blue;
-  float: left;
-  margin-right: 30px;
 }
 
-header, footer{
-  background-color: blue;
-  width: 100%;
-  height: 150px;
+.col-2{
+  width: 65%;
 }
+
+.col-3{
+  width: 100%;
+}
+
 .row::after{
   display: block;
   content: '';
   clear: both;
   visibility: hidden;
 }
-.col-3{
-  background-color: blue;
-  width: 30%;
-  margin: 0 auto;
-  float: left;
-}
-header, .row{
+
+.row{
   margin-bottom: 30px;
+  width: 100%;
+}
+
+.row .col{
+  float: left;
+  margin-right: 30px;
+}
+
+.row .col:last-child{
+  margin-right: 0;
+}
+
+.cell{
+  height: 100px;
+}
+
+.cell.solid{
+  background-color: blue;
 }
