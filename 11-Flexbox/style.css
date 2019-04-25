@@ -20,9 +20,12 @@ header, footer {
 .cell{
   min-height: 150px;
   background-color: blue;
+  flex-grow: 1;
 }
 
 .col{
+  display: flex;
+  flex-direction: column;
   margin-right: 20px;
 }
 
@@ -30,11 +33,14 @@ header, footer {
   display: flex;
   margin-bottom:20px;
   justify-content: center;
+  flex-grow: 1;
 }
 .row .col:last-child{
   margin-right: 0;
 }
-
+.col .row:last-child{
+  margin-bottom: 0;
+}
 .col-1{
   flex-grow: 1;
 }
