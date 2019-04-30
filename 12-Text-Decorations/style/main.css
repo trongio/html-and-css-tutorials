@@ -1,16 +1,72 @@
-h1{
-    font-family: 'Lobster';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-p{
-    font-family: 'PT Sans';
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+main{
+    width: 680px;
+    padding: 50px;
+    margin: 50px auto;
+}
+article{
+    border: 1px solid #F5F5F5;
+    padding: 20px 20px 0;
+    width: 680px;
     
 }
-.regular{
-    font-family: 'PTSans';
+.poster{
+    height: 350px;
+    width: 640px;
+    background-color: #A1B1BC;
+    margin-bottom: 14px;
 }
-.italic{
-    font-style: italic;
+.content header h1{
+    font-family: 'lobster';
+    font-size: 24px;
+    line-height: 30px;
+    color: #21C2F8;
 }
-.bold{
+.content header p span{
+    font-family: 'PT sans';
+    font-size: 14px;
+    line-height: 40px;
+    color: #A1B1BC;
+}
+.content header p span::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #ECF0F1;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.content header p span:last-child::after{
+    display: none;
+}
+.content header{
+    padding-bottom: 13px;
+    border-bottom: 1px solid #ECF0F1;
+    margin-bottom: 22gitpx;
+}
+.text p{
+    font-family: 'PT sans';
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+.content a{
+    display:  inline-block;
+    font-family: 'PT sans';
     font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #21C2F8;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
