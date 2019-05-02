@@ -33,7 +33,7 @@ article{
 .content header p span{
     font-family: 'PT sans';
     font-size: 14px;
-    line-height: 40px;
+    line-height: 34px;
     color: #A1B1BC;
 }
 .content header p span::after{
@@ -56,9 +56,11 @@ article{
 }
 .text p{
     font-family: 'PT sans';
+    width: 102%;
     font-size: 14px;
     line-height: 24px;
     color: #A1B1BC;
+    margin-bottom: 15px;
 }
 .content a{
     display:  inline-block;
