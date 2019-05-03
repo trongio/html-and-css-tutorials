@@ -46,13 +46,8 @@ section > div::before{
   top: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    0deg,rgba(0,0,0,1) 0%,
-   rgba(0,0,0, 0.81) 37%,
-   rgba(0,0,0, 0.67) 55%,
-   rgba(0,0,0,0) 100%
-    );
-    opacity: 0.85;
+  background-color: #140E0E;
+  opacity: 0.13;
 }
 section > div::after{
   content: '';
@@ -62,8 +57,13 @@ section > div::after{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #140E0E;
-  opacity: 0.13;
+  background: linear-gradient(
+    0deg,rgba(0,0,0,1) 0%,
+   rgba(0,0,0, 0.81) 37%,
+   rgba(0,0,0, 0.67) 55%,
+   rgba(0,0,0,0) 100%
+    );
+    opacity: 0.85;
 }
 section > h1{
   position: absolute;
