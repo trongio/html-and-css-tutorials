@@ -13,6 +13,9 @@ section {
 section > div {
   background-color: aqua;
 }
-.header, .footer{
-  grid-column: 1/4;
+.col-2{
+  grid-column: span 2;
+}
+.col-3{
+  grid-column: span 3;
 }
